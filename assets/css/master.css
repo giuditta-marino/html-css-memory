@@ -95,6 +95,7 @@ h1{
   top: 105px;
   left: 6px;
   color: #e61986;
+  opacity: 0;
 }
 
 #discovered{
@@ -102,8 +103,7 @@ h1{
   background-color:#fff;
 }
 
-.card:hover .tram{
-
+.card:hover .tram, .card:hover .text-image{
   opacity:1;
 }
 
@@ -113,7 +113,6 @@ h1{
 }
 
 .tram{
-  width: 100%;
-  height: 100%;
   opacity: 0;
+
 }
