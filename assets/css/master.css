@@ -14,7 +14,7 @@ h1{
   text-transform: uppercase;
   text-align: center;
   font-size: 50px;
-  text-shadow: 1px 1px 1px #000000;
+  text-shadow: 1px 1px 1px grey;
 }
 
 .mt-1{
@@ -55,6 +55,11 @@ h1{
   background-size: contain;
   box-shadow: 2px 2px 2px grey;
 }
+
+.shadow{
+  text-shadow: 1px 1px 1px grey;
+}
+
 .card.second{
   left: 181px;
 }
@@ -74,3 +79,41 @@ h1{
 .text-footer{
   text-align: center;
   font-size: 12px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.text-image{
+  text-align: center;
+  position: absolute;
+  top: 105px;
+  left: 6px;
+  color: #e61986;
+}
+
+#discovered{
+  background-image: none;
+  background-color:#fff;
+}
+
+.card:hover .tram{
+
+  opacity:1;
+}
+
+.card:hover{
+  background-image: none;
+  background-color: #fff;
+}
+
+.tram{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
