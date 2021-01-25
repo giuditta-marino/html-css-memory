@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #add8e6;
+  font-family: 'Potta One', cursive;
+}
+
+h1{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.mt-1{
+  margin-top: 15px;
+}
+
+.mt-2{
+  margin-top: 5px;
+}
+
+.mb-1{
+  margin-bottom: 15px;
+}
+
+.mb-2{
+  margin-bottom: 35px;
+}
+
+.container{
+  width: 741px;
+  height: 569px;
+  margin: 0 auto;
+
+}
+
+.row{
+  position: relative;
+  height: 200px;
+}
+
+.card{
+  width: 166px;
+  height: 166px;
+  margin: 15px;
+  position: absolute;
+  border-radius: 10px;
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  box-shadow: 2px 2px 2px grey;
+}
+.card.second{
+  left: 181px;
+}
+
+.card.third{
+  left: 362px;
+}
+
+.card.fourth{
+  left: 543px;
+}
+
+.row-1, .row-2{
+  margin-bottom: -15px;
+}
+
+.text-footer{
+  text-align: center;
+  font-size: 12px;
