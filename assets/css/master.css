@@ -90,12 +90,42 @@ h1{
 }
 
 .text-image{
+  position: absolute;
+  top: 105px;
+  left: 6px;
+  opacity: 0;
+}
+
+.red{
+  color: #e61986;
+}
+
+.orange{
+  color: orange;
+}
+
+.blue{
+  color: blue;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.grey{
+  color: grey;
+}
+
+.green{
+  color: green;
+}
+
+#fixed{
   text-align: center;
   position: absolute;
   top: 105px;
   left: 6px;
   color: #e61986;
-  opacity: 0;
 }
 
 #discovered{
